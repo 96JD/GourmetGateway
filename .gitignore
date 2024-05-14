@@ -1,0 +1,16 @@
+.github
+.history
+.vs
+backend/bin
+backend/obj
+backend/appsettings.Production.json
+backend.tests/bin
+backend.tests/obj
+frontend/.yarn/install-state.gz
+frontend/dist
+frontend/node_modules
+frontend/obj
+frontend/blob-report
+frontend/playwright-report
+frontend/test-results
+frontend/playwright/.cache
