@@ -25,7 +25,9 @@ export default function Card({
 				<div className={`${classNames} relative w-full overflow-hidden rounded-lg`}>
 					<img className="h-full w-full object-center" src={imageUrl} alt={imageUrl} />
 				</div>
-				<h3 className="text-center text-sm font-medium text-gray-900">{title}</h3>
+				<h3 className="truncate text-center text-sm font-medium text-gray-900" title={title}>
+					{title}
+				</h3>
 				{children}
 			</div>
 			{mainButtonLabel && onMainButtonCLick && (
